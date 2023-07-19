@@ -11,9 +11,7 @@ policies:
       - type: notify
         to:
           - soumya.de@nagarro.com  # Replace with the email addresses of the users to be notified
-        subject: Notification of IAM users who have not enabled Multi-Factor Authentication
-        body: |
-          The List of Users doesn't have Multi Factor Authentication enabled
+        subject: Action Required | IAM users who have not enabled Multi-Factor Authentication
         template: default.html
         transport:
           type: sqs

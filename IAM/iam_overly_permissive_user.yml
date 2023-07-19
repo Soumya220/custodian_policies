@@ -11,7 +11,7 @@ policies:
       - type: notify
         to:
           - soumya.de@nagarro.com  # Replace with the email addresses of the users to be notified
-        subject: Notification of IAM users who have AdministratorAccess
+        subject: Action Required | Notification of IAM users who have AdministratorAccess
         template: default.html
         transport:
           type: sqs

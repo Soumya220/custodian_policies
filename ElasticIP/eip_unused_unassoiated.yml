@@ -11,7 +11,7 @@ policies:
       - type: notify
         to:
           - soumya.de@nagarro.com  # Replace with the email addresses of the users to be notified
-        subject: URGENT- You have Unused and Unattached Elastic IP 
+        subject: Action Required | You have Unused and Unattached Elastic IP 
         template: default.html
         transport:
           type: sqs

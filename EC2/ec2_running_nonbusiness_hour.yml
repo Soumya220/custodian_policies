@@ -1,7 +1,7 @@
 policies:
   - name: notify-running-instances
     description: |
-      Notifies customers about running instances at 6 PM to remind them to stop the instances.
+      Notifies customers about running EC2 instances at 6 PM to remind them to take action on the instances.
     resource: aws.ec2
     filters:
       - type: value
@@ -13,8 +13,7 @@ policies:
         template_format: html
         to:
           - soumya.de@nagarro.com
-        subject: List of EC2 Instances Still in Running
-        priority_header: high
+        subject: Action Required | EC2 Instances Running in Non-Business Hours
         transport:
           type: sqs
           queue: https://sqs.us-east-1.amazonaws.com/200024982256/Queue-custodian

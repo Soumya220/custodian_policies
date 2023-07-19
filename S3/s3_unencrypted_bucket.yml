@@ -3,7 +3,7 @@ policies:
     description: |
       Filters out S3 buckets that are not encrypted.
     resource: s3
-    region: us-east-2
+    region: us-east-1
     filters:
       - type: bucket-encryption
         state: False
@@ -11,7 +11,7 @@ policies:
       - type: notify
         to:
           - soumya.de@nagarro.com  # Replace with the email addresses of the users to be notified
-        subject: URGENT - You have Unencrypted S3 Bucket 
+        subject: Action Required | You have Unencrypted S3 Bucket 
         template: default.html
         transport:
           type: sqs
