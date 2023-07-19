@@ -11,11 +11,11 @@ policies:
       - type: notify
         to:
           - soumya.de@nagarro.com  # Replace with the email addresses of the users to be notified
-        subject: Action Required | Notification of IAM users who have AdministratorAccess
+        subject: ACTION REQUIRED | Notification of IAM users who have AdministratorAccess
         template: default.html
         transport:
           type: sqs
-          queue: https://sqs.us-east-1.amazonaws.com/200024982256/My-Queue
+          queue: https://sqs.us-east-1.amazonaws.com/200024982256/Queue-custodian
     # mode: 
     #   type: periodic 
     #   schedule: rate(15 minutes)

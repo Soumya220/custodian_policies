@@ -11,7 +11,7 @@ policies:
       - type: notify
         to:
           - soumya.de@nagarro.com  # Replace with the email addresses of the users to be notified
-        subject: Notification of EBS Snapshos which are 30 days old
+        subject: URGENT | Notification of EBS Snapshos which are 30 days old
         template: default.html
         transport:
           type: sqs
