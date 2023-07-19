@@ -1,0 +1,18 @@
+policies:
+  - name: delete-old-ebs-snapshots
+    description: |
+      Notifies Customer about 30 days Old EBS Snapshots
+    resource: ebs-snapshot
+    filters:
+        - type: age
+          days: 30
+          op: le
+    actions:
+      - type: notify
+        to:
+          - soumya.de@nagarro.com  # Replace with the email addresses of the users to be notified
+        subject: Notification of EBS Snapshos which are 30 days old
+        template: default.html
+        transport:
+          type: sqs
+          queue: https://sqs.us-east-1.amazonaws.com/200024982256/Queue-custodian

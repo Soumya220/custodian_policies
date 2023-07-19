@@ -1,0 +1,26 @@
+policies:
+  - name: notify-users-no-mfa
+    description: |
+      Notifies IAM users who have not enabled Multi-Factor Authentication (MFA).
+    resource: aws.iam-user
+    filters:
+      - type: mfa-device
+        key: soumya
+        value: []
+    actions:
+      - type: notify
+        to:
+          - soumya.de@nagarro.com  # Replace with the email addresses of the users to be notified
+        subject: Notification of IAM users who have not enabled Multi-Factor Authentication
+        body: |
+          The List of Users doesn't have Multi Factor Authentication enabled
+        template: default.html
+        transport:
+          type: sqs
+          queue: https://sqs.us-east-1.amazonaws.com/200024982256/Queue-custodian
+    # mode: 
+    #   type: periodic 
+    #   schedule: rate(15 minutes)
+    #   role: arn:aws:iam::200024982256:role/custodian-tag-compliance-role 
+      # execution-options: 
+      #   output_dir: s3://mybucket-custodian/custodianlogs/
