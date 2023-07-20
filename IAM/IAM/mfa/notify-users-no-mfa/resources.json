@@ -1,0 +1,218 @@
+[
+  {
+    "Path": "/",
+    "UserName": "amplify-dev",
+    "UserId": "AIDAS5ETLALYGOHZLJCRD",
+    "Arn": "arn:aws:iam::200024982256:user/amplify-dev",
+    "CreateDate": "2023-05-19T07:21:58+00:00",
+    "PermissionsBoundary": {
+      "PermissionsBoundaryType": "Policy",
+      "PermissionsBoundaryArn": "arn:aws:iam::aws:policy/AdministratorAccess-Amplify"
+    },
+    "MFADevices": []
+  },
+  {
+    "Path": "/",
+    "UserName": "anna.mohan@nagarro.com",
+    "UserId": "AIDAS5ETLALYFE6T7LYFA",
+    "Arn": "arn:aws:iam::200024982256:user/anna.mohan@nagarro.com",
+    "CreateDate": "2023-06-28T06:10:13+00:00",
+    "PasswordLastUsed": "2023-07-20T04:11:35+00:00",
+    "MFADevices": []
+  },
+  {
+    "Path": "/",
+    "UserName": "custodian-bot",
+    "UserId": "AIDAS5ETLALYL7M26ETT3",
+    "Arn": "arn:aws:iam::200024982256:user/custodian-bot",
+    "CreateDate": "2023-07-18T02:48:37+00:00",
+    "MFADevices": []
+  },
+  {
+    "Path": "/",
+    "UserName": "datadog-user",
+    "UserId": "AIDAS5ETLALYL36GJTLDK",
+    "Arn": "arn:aws:iam::200024982256:user/datadog-user",
+    "CreateDate": "2023-07-05T14:42:20+00:00",
+    "Tags": [
+      {
+        "Key": "AKIAS5ETLALYM5XMPWO7",
+        "Value": "data dog for observability"
+      }
+    ],
+    "MFADevices": []
+  },
+  {
+    "Path": "/",
+    "UserName": "debashishs@nagarro.com",
+    "UserId": "AIDAS5ETLALYOZP4IB2S7",
+    "Arn": "arn:aws:iam::200024982256:user/debashishs@nagarro.com",
+    "CreateDate": "2023-06-22T16:37:34+00:00",
+    "MFADevices": []
+  },
+  {
+    "Path": "/",
+    "UserName": "dheeraj.sharma@nagarro.com",
+    "UserId": "AIDAS5ETLALYH7PLZWWMF",
+    "Arn": "arn:aws:iam::200024982256:user/dheeraj.sharma@nagarro.com",
+    "CreateDate": "2023-03-01T16:32:37+00:00",
+    "PasswordLastUsed": "2023-06-22T16:26:58+00:00",
+    "MFADevices": []
+  },
+  {
+    "Path": "/",
+    "UserName": "dheerajsharma14",
+    "UserId": "AIDAS5ETLALYKLIQDXMMP",
+    "Arn": "arn:aws:iam::200024982256:user/dheerajsharma14",
+    "CreateDate": "2023-06-06T14:04:35+00:00",
+    "PasswordLastUsed": "2023-06-21T12:43:27+00:00",
+    "MFADevices": []
+  },
+  {
+    "Path": "/",
+    "UserName": "ebslistsnap",
+    "UserId": "AIDAS5ETLALYERPEHDH6B",
+    "Arn": "arn:aws:iam::200024982256:user/ebslistsnap",
+    "CreateDate": "2023-07-17T06:25:16+00:00",
+    "MFADevices": []
+  },
+  {
+    "Path": "/",
+    "UserName": "ec2-user",
+    "UserId": "AIDAS5ETLALYM6EW5KMJA",
+    "Arn": "arn:aws:iam::200024982256:user/ec2-user",
+    "CreateDate": "2023-05-01T07:32:26+00:00",
+    "MFADevices": []
+  },
+  {
+    "Path": "/",
+    "UserName": "hce-user",
+    "UserId": "AIDAS5ETLALYFYJRIL3HK",
+    "Arn": "arn:aws:iam::200024982256:user/hce-user",
+    "CreateDate": "2023-06-30T06:32:58+00:00",
+    "PasswordLastUsed": "2023-07-03T06:20:10+00:00",
+    "Tags": [
+      {
+        "Key": "AKIAS5ETLALYMGH7OC74",
+        "Value": "accessKey-HCE"
+      }
+    ],
+    "MFADevices": []
+  },
+  {
+    "Path": "/",
+    "UserName": "karnam.sagar@nagarro.com",
+    "UserId": "AIDAS5ETLALYIOWBSHJUD",
+    "Arn": "arn:aws:iam::200024982256:user/karnam.sagar@nagarro.com",
+    "CreateDate": "2023-07-19T14:43:50+00:00",
+    "MFADevices": []
+  },
+  {
+    "Path": "/",
+    "UserName": "madhav.jaiswal@nagarro.com",
+    "UserId": "AIDAS5ETLALYOKETBUP45",
+    "Arn": "arn:aws:iam::200024982256:user/madhav.jaiswal@nagarro.com",
+    "CreateDate": "2023-03-28T10:55:53+00:00",
+    "PasswordLastUsed": "2023-04-07T06:55:14+00:00",
+    "MFADevices": []
+  },
+  {
+    "Path": "/",
+    "UserName": "mohit.sharma10@nagarro.com",
+    "UserId": "AIDAS5ETLALYDJLT5JQDE",
+    "Arn": "arn:aws:iam::200024982256:user/mohit.sharma10@nagarro.com",
+    "CreateDate": "2023-03-28T10:55:09+00:00",
+    "PasswordLastUsed": "2023-04-13T04:58:25+00:00",
+    "MFADevices": []
+  },
+  {
+    "Path": "/",
+    "UserName": "punit.jain@nagarro.com",
+    "UserId": "AIDAS5ETLALYI47UMJ7L2",
+    "Arn": "arn:aws:iam::200024982256:user/punit.jain@nagarro.com",
+    "CreateDate": "2023-03-28T10:54:11+00:00",
+    "PasswordLastUsed": "2023-07-19T07:00:24+00:00",
+    "Tags": [
+      {
+        "Key": "AKIAS5ETLALYCAITK6WJ",
+        "Value": "terraform_demo"
+      }
+    ],
+    "MFADevices": []
+  },
+  {
+    "Path": "/",
+    "UserName": "randip.rekhi",
+    "UserId": "AIDAS5ETLALYLSQXREZMA",
+    "Arn": "arn:aws:iam::200024982256:user/randip.rekhi",
+    "CreateDate": "2023-06-19T13:26:41+00:00",
+    "PasswordLastUsed": "2023-06-19T13:30:30+00:00",
+    "MFADevices": []
+  },
+  {
+    "Path": "/",
+    "UserName": "rohit.dhiman@nagarro.com",
+    "UserId": "AIDAS5ETLALYKCAWOVM2Z",
+    "Arn": "arn:aws:iam::200024982256:user/rohit.dhiman@nagarro.com",
+    "CreateDate": "2023-05-10T12:20:06+00:00",
+    "PasswordLastUsed": "2023-05-10T12:42:03+00:00",
+    "MFADevices": []
+  },
+  {
+    "Path": "/",
+    "UserName": "sameer.pansari@nagarro.com",
+    "UserId": "AIDAS5ETLALYLE4L774QL",
+    "Arn": "arn:aws:iam::200024982256:user/sameer.pansari@nagarro.com",
+    "CreateDate": "2023-07-12T08:19:05+00:00",
+    "PasswordLastUsed": "2023-07-19T11:41:33+00:00",
+    "Tags": [
+      {
+        "Key": "AKIAS5ETLALYP2IFW3GE",
+        "Value": "sameer_practice"
+      }
+    ],
+    "MFADevices": []
+  },
+  {
+    "Path": "/",
+    "UserName": "shrajal.singh@nagarro.com",
+    "UserId": "AIDAS5ETLALYFPH3OMKAX",
+    "Arn": "arn:aws:iam::200024982256:user/shrajal.singh@nagarro.com",
+    "CreateDate": "2023-03-28T10:53:14+00:00",
+    "PasswordLastUsed": "2023-07-03T09:55:36+00:00",
+    "MFADevices": []
+  },
+  {
+    "Path": "/",
+    "UserName": "soumya.de@nagarro.com",
+    "UserId": "AIDAS5ETLALYJLT6N2MWC",
+    "Arn": "arn:aws:iam::200024982256:user/soumya.de@nagarro.com",
+    "CreateDate": "2023-06-28T05:59:33+00:00",
+    "PasswordLastUsed": "2023-07-20T04:13:36+00:00",
+    "Tags": [
+      {
+        "Key": "AKIAS5ETLALYIWQ47FO3",
+        "Value": "sigma"
+      }
+    ],
+    "MFADevices": []
+  },
+  {
+    "Path": "/",
+    "UserName": "tarun.khosla@nagarro.com",
+    "UserId": "AIDAS5ETLALYJHAUADRUC",
+    "Arn": "arn:aws:iam::200024982256:user/tarun.khosla@nagarro.com",
+    "CreateDate": "2023-03-28T10:51:28+00:00",
+    "PasswordLastUsed": "2023-07-19T14:40:00+00:00",
+    "MFADevices": []
+  },
+  {
+    "Path": "/",
+    "UserName": "vivek.mishra02@nagarro.com",
+    "UserId": "AIDAS5ETLALYFSNX3FMT2",
+    "Arn": "arn:aws:iam::200024982256:user/vivek.mishra02@nagarro.com",
+    "CreateDate": "2023-05-10T12:19:00+00:00",
+    "PasswordLastUsed": "2023-07-18T08:13:16+00:00",
+    "MFADevices": []
+  }
+]

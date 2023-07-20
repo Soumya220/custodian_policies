@@ -1,0 +1,3 @@
+2023-07-20 09:47:44,847 - custodian.policy - INFO - policy:filter-unused-eips resource:aws.elastic-ip region:us-east-1 count:1 time:1.49
+2023-07-20 09:47:48,020 - custodian.actions - INFO - sent message:76ce7d48-1c16-4a75-bdff-5908f1c06621 policy:filter-unused-eips template:default.html count:1
+2023-07-20 09:47:48,022 - custodian.policy - INFO - policy:filter-unused-eips action:notify resources:1 execution_time:3.17

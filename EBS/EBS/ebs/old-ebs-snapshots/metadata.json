@@ -1,0 +1,93 @@
+{
+  "policy": {
+    "name": "old-ebs-snapshots",
+    "description": "Notifies Customer about 30 days Old EBS Snapshots\n",
+    "resource": "ebs-snapshot",
+    "filters": [
+      {
+        "type": "age",
+        "days": 30,
+        "op": "le"
+      }
+    ],
+    "actions": [
+      {
+        "type": "notify",
+        "to": [
+          "soumya.de@nagarro.com"
+        ],
+        "subject": "URGENT | Notification of EBS Snapshos which are 30 days old",
+        "template": "default.html",
+        "transport": {
+          "type": "sqs",
+          "queue": "https://sqs.us-east-1.amazonaws.com/200024982256/MyQueue"
+        }
+      }
+    ]
+  },
+  "version": "0.9.28",
+  "execution": {
+    "id": "d9e228c2-52fa-4464-9bbc-ea940595f603",
+    "start": 1689826607.929789,
+    "end_time": 1689826612.6253517,
+    "duration": 4.6955626010894775
+  },
+  "config": {
+    "region": "us-east-1",
+    "regions": [
+      "us-east-1"
+    ],
+    "cache": "~/.cache/cloud-custodian.cache",
+    "profile": null,
+    "account_id": "200024982256",
+    "assume_role": null,
+    "external_id": null,
+    "log_group": null,
+    "tracer": null,
+    "metrics_enabled": null,
+    "metrics": null,
+    "output_dir": "EBS/ebs",
+    "cache_period": 0,
+    "dryrun": false,
+    "authorization_file": null,
+    "subparser": "run",
+    "config": null,
+    "configs": [
+      "old_ebs_snapshots.yml"
+    ],
+    "policy_filters": [],
+    "resource_types": [],
+    "verbose": null,
+    "quiet": null,
+    "debug": false,
+    "skip_validation": false,
+    "command": "c7n.commands.run",
+    "vars": null
+  },
+  "sys-stats": {},
+  "api-stats": {
+    "ec2.DescribeSnapshots": 1,
+    "iam.ListAccountAliases": 1,
+    "sqs.SendMessage": 1
+  },
+  "metrics": [
+    {
+      "MetricName": "ResourceCount",
+      "Timestamp": "2023-07-20T09:46:49.858607",
+      "Value": 1,
+      "Unit": "Count"
+    },
+    {
+      "MetricName": "ResourceTime",
+      "Timestamp": "2023-07-20T09:46:49.858649",
+      "Value": 1.9017448425292969,
+      "Unit": "Seconds"
+    },
+    {
+      "MetricName": "ActionTime",
+      "Timestamp": "2023-07-20T09:46:52.625299",
+      "Value": 2.765666961669922,
+      "Unit": "Seconds"
+    }
+  ]
+}

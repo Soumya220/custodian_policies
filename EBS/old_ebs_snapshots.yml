@@ -1,5 +1,5 @@
 policies:
-  - name: delete-old-ebs-snapshots
+  - name: old-ebs-snapshots
     description: |
       Notifies Customer about 30 days Old EBS Snapshots
     resource: ebs-snapshot
@@ -15,4 +15,8 @@ policies:
         template: default.html
         transport:
           type: sqs
-          queue: https://sqs.us-east-1.amazonaws.com/200024982256/Queue-custodian
+          queue: https://sqs.us-east-1.amazonaws.com/200024982256/MyQueue
+    # mode:
+    #   type: periodic
+    #   schedule: "cron(0 22 * * ? *)"
+    #   role: arn:aws:iam::200024982256:role/custodian-tag-compliance-role 

@@ -1,0 +1,139 @@
+[
+  {
+    "AmiLaunchIndex": 0,
+    "ImageId": "ami-06ca3ca175f37dd66",
+    "InstanceId": "i-0ac65d572667855df",
+    "InstanceType": "t2.micro",
+    "LaunchTime": "2023-07-19T16:17:34+00:00",
+    "Monitoring": {
+      "State": "disabled"
+    },
+    "Placement": {
+      "AvailabilityZone": "us-east-1d",
+      "GroupName": "",
+      "Tenancy": "default"
+    },
+    "PrivateDnsName": "ip-172-31-87-51.ec2.internal",
+    "PrivateIpAddress": "172.31.87.51",
+    "ProductCodes": [],
+    "PublicDnsName": "ec2-54-161-117-205.compute-1.amazonaws.com",
+    "PublicIpAddress": "54.161.117.205",
+    "State": {
+      "Code": 16,
+      "Name": "running"
+    },
+    "StateTransitionReason": "",
+    "SubnetId": "subnet-0cb5b523c5a6b85ec",
+    "VpcId": "vpc-0757fce6e55951f6f",
+    "Architecture": "x86_64",
+    "BlockDeviceMappings": [
+      {
+        "DeviceName": "/dev/xvda",
+        "Ebs": {
+          "AttachTime": "2023-07-19T16:17:35+00:00",
+          "DeleteOnTermination": true,
+          "Status": "attached",
+          "VolumeId": "vol-069b27dcb6991f195"
+        }
+      }
+    ],
+    "ClientToken": "0cbed27d-3dfd-4cb4-bfbf-d492686b858b",
+    "EbsOptimized": false,
+    "EnaSupport": true,
+    "Hypervisor": "xen",
+    "NetworkInterfaces": [
+      {
+        "Association": {
+          "IpOwnerId": "amazon",
+          "PublicDnsName": "ec2-54-161-117-205.compute-1.amazonaws.com",
+          "PublicIp": "54.161.117.205"
+        },
+        "Attachment": {
+          "AttachTime": "2023-07-19T16:17:34+00:00",
+          "AttachmentId": "eni-attach-0d3db3fa248fcc3c3",
+          "DeleteOnTermination": true,
+          "DeviceIndex": 0,
+          "Status": "attached",
+          "NetworkCardIndex": 0
+        },
+        "Description": "",
+        "Groups": [
+          {
+            "GroupName": "launch-wizard-35",
+            "GroupId": "sg-01c71a221cdeafc7f"
+          }
+        ],
+        "Ipv6Addresses": [],
+        "MacAddress": "12:82:cb:fb:0c:f9",
+        "NetworkInterfaceId": "eni-0c9318a2ef196c8ee",
+        "OwnerId": "200024982256",
+        "PrivateDnsName": "ip-172-31-87-51.ec2.internal",
+        "PrivateIpAddress": "172.31.87.51",
+        "PrivateIpAddresses": [
+          {
+            "Association": {
+              "IpOwnerId": "amazon",
+              "PublicDnsName": "ec2-54-161-117-205.compute-1.amazonaws.com",
+              "PublicIp": "54.161.117.205"
+            },
+            "Primary": true,
+            "PrivateDnsName": "ip-172-31-87-51.ec2.internal",
+            "PrivateIpAddress": "172.31.87.51"
+          }
+        ],
+        "SourceDestCheck": true,
+        "Status": "in-use",
+        "SubnetId": "subnet-0cb5b523c5a6b85ec",
+        "VpcId": "vpc-0757fce6e55951f6f",
+        "InterfaceType": "interface"
+      }
+    ],
+    "RootDeviceName": "/dev/xvda",
+    "RootDeviceType": "ebs",
+    "SecurityGroups": [
+      {
+        "GroupName": "launch-wizard-35",
+        "GroupId": "sg-01c71a221cdeafc7f"
+      }
+    ],
+    "SourceDestCheck": true,
+    "VirtualizationType": "hvm",
+    "CpuOptions": {
+      "CoreCount": 1,
+      "ThreadsPerCore": 1
+    },
+    "CapacityReservationSpecification": {
+      "CapacityReservationPreference": "open"
+    },
+    "HibernationOptions": {
+      "Configured": false
+    },
+    "MetadataOptions": {
+      "State": "applied",
+      "HttpTokens": "required",
+      "HttpPutResponseHopLimit": 2,
+      "HttpEndpoint": "enabled",
+      "HttpProtocolIpv6": "disabled",
+      "InstanceMetadataTags": "disabled"
+    },
+    "EnclaveOptions": {
+      "Enabled": false
+    },
+    "BootMode": "uefi-preferred",
+    "PlatformDetails": "Linux/UNIX",
+    "UsageOperation": "RunInstances",
+    "UsageOperationUpdateTime": "2023-07-19T16:17:34+00:00",
+    "PrivateDnsNameOptions": {
+      "HostnameType": "ip-name",
+      "EnableResourceNameDnsARecord": true,
+      "EnableResourceNameDnsAAAARecord": false
+    },
+    "MaintenanceOptions": {
+      "AutoRecovery": "default"
+    },
+    "CurrentInstanceBootMode": "legacy-bios",
+    "c7n:MatchedFilters": [
+      "State.Name"
+    ]
+  }
+]
