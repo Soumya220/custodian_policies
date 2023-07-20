@@ -1,3 +1,0 @@
-2023-07-20 09:46:49,856 - custodian.policy - INFO - policy:old-ebs-snapshots resource:ebs-snapshot region:us-east-1 count:1 time:1.90
-2023-07-20 09:46:52,623 - custodian.actions - INFO - sent message:add724d9-eb18-459c-832d-f119ccfd2c80 policy:old-ebs-snapshots template:default.html count:1
-2023-07-20 09:46:52,624 - custodian.policy - INFO - policy:old-ebs-snapshots action:notify resources:1 execution_time:2.77
