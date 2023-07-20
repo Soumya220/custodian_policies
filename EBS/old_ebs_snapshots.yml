@@ -16,7 +16,3 @@ policies:
         transport:
           type: sqs
           queue: https://sqs.us-east-1.amazonaws.com/200024982256/MyQueue
-    # mode:
-    #   type: periodic
-    #   schedule: "cron(0 22 * * ? *)"
-    #   role: arn:aws:iam::200024982256:role/custodian-tag-compliance-role 

@@ -16,9 +16,3 @@ policies:
         transport:
           type: sqs
           queue: https://sqs.us-east-1.amazonaws.com/200024982256/MyQueue
-    # mode: 
-    #   type: periodic 
-    #   schedule: rate(15 minutes)
-    #   role: arn:aws:iam::200024982256:role/custodian-tag-compliance-role 
-    #   execution-options: 
-    #     output_dir: s3://mybucket-custodian/custodianlogs/

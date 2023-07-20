@@ -17,3 +17,4 @@ policies:
         transport:
           type: sqs
           queue: https://sqs.us-east-1.amazonaws.com/200024982256/MyQueue
+

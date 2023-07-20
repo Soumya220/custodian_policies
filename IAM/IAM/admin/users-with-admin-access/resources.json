@@ -1,0 +1,406 @@
+[
+  {
+    "Path": "/",
+    "UserName": "anna.mohan@nagarro.com",
+    "UserId": "AIDAS5ETLALYFE6T7LYFA",
+    "Arn": "arn:aws:iam::200024982256:user/anna.mohan@nagarro.com",
+    "CreateDate": "2023-06-28T06:10:13+00:00",
+    "PasswordLastUsed": "2023-07-20T04:11:35+00:00",
+    "c7n:Policies": [
+      {
+        "PolicyName": "AdministratorAccess",
+        "PolicyId": "ANPAIWMBCKSKIEE64ZLYK",
+        "Arn": "arn:aws:iam::aws:policy/AdministratorAccess",
+        "Path": "/",
+        "DefaultVersionId": "v1",
+        "AttachmentCount": 7,
+        "PermissionsBoundaryUsageCount": 0,
+        "IsAttachable": true,
+        "Description": "Provides full access to AWS services and resources.",
+        "CreateDate": "2015-02-06T18:39:46+00:00",
+        "UpdateDate": "2015-02-06T18:39:46+00:00",
+        "Tags": []
+      },
+      {
+        "PolicyName": "IAMUserChangePassword",
+        "PolicyId": "ANPAJ4L4MM2A7QIEB56MS",
+        "Arn": "arn:aws:iam::aws:policy/IAMUserChangePassword",
+        "Path": "/",
+        "DefaultVersionId": "v2",
+        "AttachmentCount": 13,
+        "PermissionsBoundaryUsageCount": 0,
+        "IsAttachable": true,
+        "Description": "Provides the ability for an IAM user to change their own password.",
+        "CreateDate": "2016-11-15T00:25:16+00:00",
+        "UpdateDate": "2016-11-15T23:18:55+00:00",
+        "Tags": []
+      }
+    ]
+  },
+  {
+    "Path": "/",
+    "UserName": "dheeraj.sharma@nagarro.com",
+    "UserId": "AIDAS5ETLALYH7PLZWWMF",
+    "Arn": "arn:aws:iam::200024982256:user/dheeraj.sharma@nagarro.com",
+    "CreateDate": "2023-03-01T16:32:37+00:00",
+    "PasswordLastUsed": "2023-06-22T16:26:58+00:00",
+    "c7n:Policies": [
+      {
+        "PolicyName": "AdministratorAccess",
+        "PolicyId": "ANPAIWMBCKSKIEE64ZLYK",
+        "Arn": "arn:aws:iam::aws:policy/AdministratorAccess",
+        "Path": "/",
+        "DefaultVersionId": "v1",
+        "AttachmentCount": 7,
+        "PermissionsBoundaryUsageCount": 0,
+        "IsAttachable": true,
+        "Description": "Provides full access to AWS services and resources.",
+        "CreateDate": "2015-02-06T18:39:46+00:00",
+        "UpdateDate": "2015-02-06T18:39:46+00:00",
+        "Tags": []
+      },
+      {
+        "PolicyName": "IAMUserChangePassword",
+        "PolicyId": "ANPAJ4L4MM2A7QIEB56MS",
+        "Arn": "arn:aws:iam::aws:policy/IAMUserChangePassword",
+        "Path": "/",
+        "DefaultVersionId": "v2",
+        "AttachmentCount": 13,
+        "PermissionsBoundaryUsageCount": 0,
+        "IsAttachable": true,
+        "Description": "Provides the ability for an IAM user to change their own password.",
+        "CreateDate": "2016-11-15T00:25:16+00:00",
+        "UpdateDate": "2016-11-15T23:18:55+00:00",
+        "Tags": []
+      },
+      {
+        "PolicyName": "AWSCostAndUsageReportAutomationPolicy",
+        "PolicyId": "ANPAZKAPJZG4KVW6KKXOP",
+        "Arn": "arn:aws:iam::aws:policy/service-role/AWSCostAndUsageReportAutomationPolicy",
+        "Path": "/service-role/",
+        "DefaultVersionId": "v1",
+        "AttachmentCount": 4,
+        "PermissionsBoundaryUsageCount": 0,
+        "IsAttachable": true,
+        "Description": "Grants permissions to to describe the organization of the account, create S3 buckets for the MAP program and apply tags to it, create a Cost and Usage Report, and describe Cost and Usage Report definitions.",
+        "CreateDate": "2021-11-01T21:27:29+00:00",
+        "UpdateDate": "2021-11-01T21:27:29+00:00",
+        "Tags": []
+      }
+    ]
+  },
+  {
+    "Path": "/",
+    "UserName": "sameer.pansari@nagarro.com",
+    "UserId": "AIDAS5ETLALYLE4L774QL",
+    "Arn": "arn:aws:iam::200024982256:user/sameer.pansari@nagarro.com",
+    "CreateDate": "2023-07-12T08:19:05+00:00",
+    "PasswordLastUsed": "2023-07-19T11:41:33+00:00",
+    "Tags": [
+      {
+        "Key": "AKIAS5ETLALYP2IFW3GE",
+        "Value": "sameer_practice"
+      }
+    ],
+    "c7n:Policies": [
+      {
+        "PolicyName": "AdministratorAccess",
+        "PolicyId": "ANPAIWMBCKSKIEE64ZLYK",
+        "Arn": "arn:aws:iam::aws:policy/AdministratorAccess",
+        "Path": "/",
+        "DefaultVersionId": "v1",
+        "AttachmentCount": 7,
+        "PermissionsBoundaryUsageCount": 0,
+        "IsAttachable": true,
+        "Description": "Provides full access to AWS services and resources.",
+        "CreateDate": "2015-02-06T18:39:46+00:00",
+        "UpdateDate": "2015-02-06T18:39:46+00:00",
+        "Tags": []
+      },
+      {
+        "PolicyName": "IAMUserChangePassword",
+        "PolicyId": "ANPAJ4L4MM2A7QIEB56MS",
+        "Arn": "arn:aws:iam::aws:policy/IAMUserChangePassword",
+        "Path": "/",
+        "DefaultVersionId": "v2",
+        "AttachmentCount": 13,
+        "PermissionsBoundaryUsageCount": 0,
+        "IsAttachable": true,
+        "Description": "Provides the ability for an IAM user to change their own password.",
+        "CreateDate": "2016-11-15T00:25:16+00:00",
+        "UpdateDate": "2016-11-15T23:18:55+00:00",
+        "Tags": []
+      }
+    ]
+  },
+  {
+    "Path": "/",
+    "UserName": "siddhartha.arora@nagarro.com",
+    "UserId": "AIDAS5ETLALYCMVBHVYZZ",
+    "Arn": "arn:aws:iam::200024982256:user/siddhartha.arora@nagarro.com",
+    "CreateDate": "2022-04-08T05:10:12+00:00",
+    "PasswordLastUsed": "2023-04-07T11:38:04+00:00",
+    "c7n:Policies": [
+      {
+        "PolicyName": "AdministratorAccess",
+        "PolicyId": "ANPAIWMBCKSKIEE64ZLYK",
+        "Arn": "arn:aws:iam::aws:policy/AdministratorAccess",
+        "Path": "/",
+        "DefaultVersionId": "v1",
+        "AttachmentCount": 7,
+        "PermissionsBoundaryUsageCount": 0,
+        "IsAttachable": true,
+        "Description": "Provides full access to AWS services and resources.",
+        "CreateDate": "2015-02-06T18:39:46+00:00",
+        "UpdateDate": "2015-02-06T18:39:46+00:00",
+        "Tags": []
+      },
+      {
+        "PolicyName": "IAMUserChangePassword",
+        "PolicyId": "ANPAJ4L4MM2A7QIEB56MS",
+        "Arn": "arn:aws:iam::aws:policy/IAMUserChangePassword",
+        "Path": "/",
+        "DefaultVersionId": "v2",
+        "AttachmentCount": 13,
+        "PermissionsBoundaryUsageCount": 0,
+        "IsAttachable": true,
+        "Description": "Provides the ability for an IAM user to change their own password.",
+        "CreateDate": "2016-11-15T00:25:16+00:00",
+        "UpdateDate": "2016-11-15T23:18:55+00:00",
+        "Tags": []
+      },
+      {
+        "PolicyName": "AWSBillingConductorFullAccess",
+        "PolicyId": "ANPAZKAPJZG4D2AMFVFND",
+        "Arn": "arn:aws:iam::aws:policy/AWSBillingConductorFullAccess",
+        "Path": "/",
+        "DefaultVersionId": "v1",
+        "AttachmentCount": 4,
+        "PermissionsBoundaryUsageCount": 0,
+        "IsAttachable": true,
+        "Description": "Use the AWSBillingConductorFullAccess managed policy to allow complete access to AWS Billing Conductor (ABC) console and APIs. This policy allows users to list, create and delete ABC resources.",
+        "CreateDate": "2022-04-13T18:02:29+00:00",
+        "UpdateDate": "2022-04-13T18:02:29+00:00",
+        "Tags": []
+      },
+      {
+        "PolicyName": "AWSBillingReadOnlyAccess",
+        "PolicyId": "ANPAZKAPJZG4LJ3OSZ5SX",
+        "Arn": "arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess",
+        "Path": "/",
+        "DefaultVersionId": "v3",
+        "AttachmentCount": 1,
+        "PermissionsBoundaryUsageCount": 0,
+        "IsAttachable": true,
+        "Description": "Allows users to view bills on the Billing Console.",
+        "CreateDate": "2020-08-27T20:08:51+00:00",
+        "UpdateDate": "2023-06-28T19:56:01+00:00",
+        "Tags": []
+      }
+    ]
+  },
+  {
+    "Path": "/",
+    "UserName": "soumya.de@nagarro.com",
+    "UserId": "AIDAS5ETLALYJLT6N2MWC",
+    "Arn": "arn:aws:iam::200024982256:user/soumya.de@nagarro.com",
+    "CreateDate": "2023-06-28T05:59:33+00:00",
+    "PasswordLastUsed": "2023-07-20T04:13:36+00:00",
+    "Tags": [
+      {
+        "Key": "AKIAS5ETLALYIWQ47FO3",
+        "Value": "sigma"
+      }
+    ],
+    "c7n:Policies": [
+      {
+        "PolicyName": "AmazonEC2FullAccess",
+        "PolicyId": "ANPAI3VAJF5ZCRZ7MCQE6",
+        "Arn": "arn:aws:iam::aws:policy/AmazonEC2FullAccess",
+        "Path": "/",
+        "DefaultVersionId": "v5",
+        "AttachmentCount": 7,
+        "PermissionsBoundaryUsageCount": 0,
+        "IsAttachable": true,
+        "Description": "Provides full access to Amazon EC2 via the AWS Management Console.",
+        "CreateDate": "2015-02-06T18:40:15+00:00",
+        "UpdateDate": "2018-11-27T02:16:56+00:00",
+        "Tags": []
+      },
+      {
+        "PolicyName": "AdministratorAccess",
+        "PolicyId": "ANPAIWMBCKSKIEE64ZLYK",
+        "Arn": "arn:aws:iam::aws:policy/AdministratorAccess",
+        "Path": "/",
+        "DefaultVersionId": "v1",
+        "AttachmentCount": 7,
+        "PermissionsBoundaryUsageCount": 0,
+        "IsAttachable": true,
+        "Description": "Provides full access to AWS services and resources.",
+        "CreateDate": "2015-02-06T18:39:46+00:00",
+        "UpdateDate": "2015-02-06T18:39:46+00:00",
+        "Tags": []
+      },
+      {
+        "PolicyName": "IAMUserChangePassword",
+        "PolicyId": "ANPAJ4L4MM2A7QIEB56MS",
+        "Arn": "arn:aws:iam::aws:policy/IAMUserChangePassword",
+        "Path": "/",
+        "DefaultVersionId": "v2",
+        "AttachmentCount": 13,
+        "PermissionsBoundaryUsageCount": 0,
+        "IsAttachable": true,
+        "Description": "Provides the ability for an IAM user to change their own password.",
+        "CreateDate": "2016-11-15T00:25:16+00:00",
+        "UpdateDate": "2016-11-15T23:18:55+00:00",
+        "Tags": []
+      },
+      {
+        "PolicyName": "AmazonS3FullAccess",
+        "PolicyId": "ANPAIFIR6V6BVTRAHWINE",
+        "Arn": "arn:aws:iam::aws:policy/AmazonS3FullAccess",
+        "Path": "/",
+        "DefaultVersionId": "v2",
+        "AttachmentCount": 3,
+        "PermissionsBoundaryUsageCount": 0,
+        "IsAttachable": true,
+        "Description": "Provides full access to all buckets via the AWS Management Console.",
+        "CreateDate": "2015-02-06T18:40:58+00:00",
+        "UpdateDate": "2021-09-27T20:16:37+00:00",
+        "Tags": []
+      }
+    ]
+  },
+  {
+    "Path": "/",
+    "UserName": "tarun.khosla@nagarro.com",
+    "UserId": "AIDAS5ETLALYJHAUADRUC",
+    "Arn": "arn:aws:iam::200024982256:user/tarun.khosla@nagarro.com",
+    "CreateDate": "2023-03-28T10:51:28+00:00",
+    "PasswordLastUsed": "2023-07-19T14:40:00+00:00",
+    "c7n:Policies": [
+      {
+        "PolicyName": "AdministratorAccess",
+        "PolicyId": "ANPAIWMBCKSKIEE64ZLYK",
+        "Arn": "arn:aws:iam::aws:policy/AdministratorAccess",
+        "Path": "/",
+        "DefaultVersionId": "v1",
+        "AttachmentCount": 7,
+        "PermissionsBoundaryUsageCount": 0,
+        "IsAttachable": true,
+        "Description": "Provides full access to AWS services and resources.",
+        "CreateDate": "2015-02-06T18:39:46+00:00",
+        "UpdateDate": "2015-02-06T18:39:46+00:00",
+        "Tags": []
+      },
+      {
+        "PolicyName": "IAMUserChangePassword",
+        "PolicyId": "ANPAJ4L4MM2A7QIEB56MS",
+        "Arn": "arn:aws:iam::aws:policy/IAMUserChangePassword",
+        "Path": "/",
+        "DefaultVersionId": "v2",
+        "AttachmentCount": 13,
+        "PermissionsBoundaryUsageCount": 0,
+        "IsAttachable": true,
+        "Description": "Provides the ability for an IAM user to change their own password.",
+        "CreateDate": "2016-11-15T00:25:16+00:00",
+        "UpdateDate": "2016-11-15T23:18:55+00:00",
+        "Tags": []
+      }
+    ]
+  },
+  {
+    "Path": "/",
+    "UserName": "vivek.mishra02@nagarro.com",
+    "UserId": "AIDAS5ETLALYFSNX3FMT2",
+    "Arn": "arn:aws:iam::200024982256:user/vivek.mishra02@nagarro.com",
+    "CreateDate": "2023-05-10T12:19:00+00:00",
+    "PasswordLastUsed": "2023-07-18T08:13:16+00:00",
+    "c7n:Policies": [
+      {
+        "PolicyName": "IAMFullAccess",
+        "PolicyId": "ANPAI7XKCFMBPM3QQRRVQ",
+        "Arn": "arn:aws:iam::aws:policy/IAMFullAccess",
+        "Path": "/",
+        "DefaultVersionId": "v2",
+        "AttachmentCount": 1,
+        "PermissionsBoundaryUsageCount": 0,
+        "IsAttachable": true,
+        "Description": "Provides full access to IAM via the AWS Management Console.",
+        "CreateDate": "2015-02-06T18:40:38+00:00",
+        "UpdateDate": "2019-06-21T19:40:00+00:00",
+        "Tags": []
+      },
+      {
+        "PolicyName": "AdministratorAccess",
+        "PolicyId": "ANPAIWMBCKSKIEE64ZLYK",
+        "Arn": "arn:aws:iam::aws:policy/AdministratorAccess",
+        "Path": "/",
+        "DefaultVersionId": "v1",
+        "AttachmentCount": 7,
+        "PermissionsBoundaryUsageCount": 0,
+        "IsAttachable": true,
+        "Description": "Provides full access to AWS services and resources.",
+        "CreateDate": "2015-02-06T18:39:46+00:00",
+        "UpdateDate": "2015-02-06T18:39:46+00:00",
+        "Tags": []
+      },
+      {
+        "PolicyName": "Billing",
+        "PolicyId": "ANPAIFTHXT6FFMIRT7ZEA",
+        "Arn": "arn:aws:iam::aws:policy/job-function/Billing",
+        "Path": "/job-function/",
+        "DefaultVersionId": "v7",
+        "AttachmentCount": 3,
+        "PermissionsBoundaryUsageCount": 0,
+        "IsAttachable": true,
+        "Description": "Grants permissions for billing and cost management. This includes viewing account usage and viewing and modifying budgets and payment methods.",
+        "CreateDate": "2016-11-10T17:33:18+00:00",
+        "UpdateDate": "2023-06-28T19:47:25+00:00",
+        "Tags": []
+      },
+      {
+        "PolicyName": "IAMUserChangePassword",
+        "PolicyId": "ANPAJ4L4MM2A7QIEB56MS",
+        "Arn": "arn:aws:iam::aws:policy/IAMUserChangePassword",
+        "Path": "/",
+        "DefaultVersionId": "v2",
+        "AttachmentCount": 13,
+        "PermissionsBoundaryUsageCount": 0,
+        "IsAttachable": true,
+        "Description": "Provides the ability for an IAM user to change their own password.",
+        "CreateDate": "2016-11-15T00:25:16+00:00",
+        "UpdateDate": "2016-11-15T23:18:55+00:00",
+        "Tags": []
+      },
+      {
+        "PolicyName": "AWSBillingConductorFullAccess",
+        "PolicyId": "ANPAZKAPJZG4D2AMFVFND",
+        "Arn": "arn:aws:iam::aws:policy/AWSBillingConductorFullAccess",
+        "Path": "/",
+        "DefaultVersionId": "v1",
+        "AttachmentCount": 4,
+        "PermissionsBoundaryUsageCount": 0,
+        "IsAttachable": true,
+        "Description": "Use the AWSBillingConductorFullAccess managed policy to allow complete access to AWS Billing Conductor (ABC) console and APIs. This policy allows users to list, create and delete ABC resources.",
+        "CreateDate": "2022-04-13T18:02:29+00:00",
+        "UpdateDate": "2022-04-13T18:02:29+00:00",
+        "Tags": []
+      },
+      {
+        "PolicyName": "AWSCostAndUsageReportAutomationPolicy",
+        "PolicyId": "ANPAZKAPJZG4KVW6KKXOP",
+        "Arn": "arn:aws:iam::aws:policy/service-role/AWSCostAndUsageReportAutomationPolicy",
+        "Path": "/service-role/",
+        "DefaultVersionId": "v1",
+        "AttachmentCount": 4,
+        "PermissionsBoundaryUsageCount": 0,
+        "IsAttachable": true,
+        "Description": "Grants permissions to to describe the organization of the account, create S3 buckets for the MAP program and apply tags to it, create a Cost and Usage Report, and describe Cost and Usage Report definitions.",
+        "CreateDate": "2021-11-01T21:27:29+00:00",
+        "UpdateDate": "2021-11-01T21:27:29+00:00",
+        "Tags": []
+      }
+    ]
+  }
+]
