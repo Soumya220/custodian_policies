@@ -5,14 +5,13 @@ policies:
     resource: aws.iam-user
     filters:
       - type: mfa-device
-        key: soumya
         value: []
     actions:
       - type: notify
         to:
           - soumya.de@nagarro.com  # Replace with the email addresses of the users to be notified
         subject: ACTION REQUIRED | IAM users who have not enabled Multi-Factor Authentication
-        template: default.html
+        template: finops_iam_mfa.html
         transport:
           type: sqs
           queue: https://sqs.us-east-1.amazonaws.com/200024982256/MyQueue
