@@ -23,7 +23,7 @@ pipeline {
                     cd EC2
 
                     # Execute the Cloud Custodian policy
-                    /usr/local/bin/custodian run --cache-period 0 --output-dir output0 policy.yml
+                    /usr/local/bin/custodian run --cache-period 0 --output-dir output0 .yml
                 '''
             }
         }
