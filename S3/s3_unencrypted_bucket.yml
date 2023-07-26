@@ -15,4 +15,4 @@ policies:
         template: finops_s3.html
         transport:
           type: sqs
-          queue: https://sqs.us-east-1.amazonaws.com/200024982256/MyQueue
+          queue: https://sqs.us-east-1.amazonaws.com/515302636750/MyQueue
