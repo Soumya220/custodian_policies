@@ -7,7 +7,7 @@ pipeline {
         stage('Fetch Code from Git') {
             steps {
                 // Fetch the code from your Git repository containing Cloud Custodian policies
-                git 'https://github.com/your_username/your_repo.git'
+                git credentialsId: 'GIT_PAT', url: 'https://github.com/Soumya220/custodian_policies.git'
             }
         }
         stage('Run Custodian Policy') {
